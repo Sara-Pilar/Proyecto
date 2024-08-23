@@ -17,7 +17,7 @@ header {
     top: 0;
     width: 100%;
     height: 80px;
-    background:  rgba(0, 0, 0, 0.685);
+    background: rgba(0, 0, 0, 0.685);
     z-index: 3;
     transition: 0.7s;
     display: flex;
@@ -98,6 +98,7 @@ nav ul li .submenu li:hover{
     display: block;
     width: 128px;
 }
+
 /* Estilos para botones de redes sociales*/
 .redes{
     position: fixed;
@@ -220,41 +221,35 @@ nav ul li .submenu li:hover{
     margin: 20px 0;
     color: #168181;
 }
-#inicio-regiones{
+#inicio-regiones {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-#inicio-regiones section{
+#inicio-regiones section {
     flex: 1;
     padding: 10px;
 }
-.centro{
-    margin-left: 50px;
-}
-.izquierda{
+.izquierda {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.derecha{
+.derecha {
     display: flex;
     align-items: center;
 }
-.costa, .sierra, .selva{
+.costa, .sierra, .selva {
     display: flex;
     align-items: center;
     justify-content: end;
-    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .sierra{
     margin-right: -100px;
 }
-.selva{
-    margin-left: 50px;
-}
-
-.costa p , .sierra p, .selva p{
+.costa p, .sierra p, .selva p {
     background-color: #168181;
     width: 200px;
     padding: 10px 25px;
@@ -264,17 +259,38 @@ nav ul li .submenu li:hover{
     color: white;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.562);
 }
-.selva p{
-    border-radius:  0 25px 25px 0;   
+
+.selva p {
+    border-radius: 0 25px 25px 0;
 }
-.costa img, .sierra img, .selva img{
+
+.costa img, .sierra img, .selva img {
     width: 120px;
     margin-left: -15px;
     border-radius: 150px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.562);
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
-.selva img{
+
+.selva img {
     margin-left: -280px;
+}
+
+#imagen-centro {
+    width: 90%; 
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.8s ease;
+    opacity: 1;
+}
+
+.zoom-in {
+    transform: scale(1.1); 
+    opacity: 0.2; 
+}
+
+.zoom-out {
+    transform: scale(1);
+    opacity: 1;
 }
 .puntos{
     display: flex;
@@ -395,7 +411,7 @@ footer::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: rgba(0, 0, 0, 0.658);
     z-index: 2;
 }
 #arriba, .linea, #final {

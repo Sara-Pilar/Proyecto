@@ -14,7 +14,7 @@ import truimg from '../imagenes/r-trujillo.png';
 import truvideo from '../videos/video-trujillo.mp4';
 
 
-function MReservados() {
+function MReservadosInicio() {
   return (
     <div className="mas-reservados">
       <Reservado imgSrc={aqpimg} videoSrc={aqpvideo} altText="Arequipa" />
@@ -27,5 +27,4 @@ function MReservados() {
     </div>
   );
 }
-
-export default MReservados;
+export default MReservadosInicio;

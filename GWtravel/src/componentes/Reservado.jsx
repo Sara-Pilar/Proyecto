@@ -16,15 +16,14 @@ function Reservado({ imgSrc, videoSrc, altText }) {
           autoPlay
           loop
           muted
-        
         />
       ) : (
         <img
           src={imgSrc}
           alt={altText}
-        
         />
       )}
+      <p>{altText}</p>
     </div>
   );
 }

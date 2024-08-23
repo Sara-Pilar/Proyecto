@@ -1,30 +1,47 @@
-import { Fragment } from "react";
-import '../componentes/EstilosInicio.css'
+import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
 
+import '../componentes/EstilosInicio.css';
+import './EstilosInicio.css'
 
 function Menu() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector("header");
+      if (window.scrollY > 0) {
+        header.classList.add("abajo");
+      } else {
+        header.classList.remove("abajo");
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); 
     return (
       <header>
         <div id="cabecera">
-          <a href="#">
-            <img className="" src="" alt="" />
+          <Link to="/">
+            <img className="" src="" alt=""/>
             GW TRAVEL
-          </a>
+          </Link>
         </div>
         <nav>
           <ul>
-            <li><a href="#">INICIO</a></li>
-            <li><a href="">NOSOTROS</a></li>
-            <li><a href="">DESTINOS</a>
+            <li><Link to="/">INICIO</Link></li>
+            <li><Link to="/PaginasNosotros">NOSOTROS</Link></li>
+            <li><Link to="/PaginasNosotros">DESTINOS</Link>
               <ul className="submenu">
-                <li><a href="">Costa</a></li>
-                <li><a href="">Sierra</a></li>
-                <li><a href="">Selva</a></li>
+                <li><Link to="/PaginasNosotros">Costa</Link></li>
+                <li><Link to="/PaginasNosotros">Sierra</Link></li>
+                <li><Link to="/PaginasNosotros">Selva</Link></li>
               </ul>
             </li>
-            <li><a href="l">TESTIMONIOS</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="l">CONTACTO</a></li>
+            <li><Link to="/PaginasNosotros">TESTIMONIOS</Link></li>
+            <li><Link to="/PaginasNosotros">BLOG</Link></li>
+            <li><Link to="/PaginasNosotros">CONTACTO</Link></li>
           </ul>
         </nav>
       </header>

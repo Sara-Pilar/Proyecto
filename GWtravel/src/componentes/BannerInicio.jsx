@@ -9,6 +9,11 @@ function BannerInicio() {
 
   // Array de imágenes
   const imagen = [fondo1, fondo2, fondo3];
+  const parrafos = [
+    "DESCUBRE TU PRÓXIMO DESTINO",
+    "EXPLORA NUEVAS AVENTURAS",
+    "VIAJA POR EL PERÚ"
+    ];
 
   useEffect(() => {
     // Función para rotar la imagen
@@ -31,7 +36,7 @@ function BannerInicio() {
         <div id="miBanner">
             <section>
             <img id="imagenBanner" src={imagen[indiceImg]} alt={`Banner ${indiceImg}`} />
-            <p id="parrafoBanner">DESCUBRE TU PRÓXIMO DESTINO</p>
+            <p id="parrafoBanner">{parrafos[indiceImg]}</p>
             </section>
         </div>
 
@@ -41,11 +46,6 @@ function BannerInicio() {
             <div className="lineas" onClick={() => nuevaImg(2)}></div>
         </div>
 
-        <div id="miContenedor">
-            <section>
-                <h1 id="titulo"></h1>
-            </section>
-        </div>
     </div>
   );
 }
