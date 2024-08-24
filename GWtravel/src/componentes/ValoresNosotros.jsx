@@ -1,10 +1,13 @@
 import React from 'react';
 import '../componentes/EstilosNosotros.css';
+import img1 from '../imagenes/puntualidad.png'
+import img2 from '../imagenes/sostenibilidad.png'
+import img3 from '../imagenes/calidad.png'
 // Datos de ejemplo
 const valores = [
-  { title: 'Calidad', imgSrc: '/path/to/image1.png' },
-  { title: 'Seguridad', imgSrc: '/path/to/image2.png' },
-  { title: 'Garantía', imgSrc: '/path/to/image3.png' }
+  { title: 'Calidad', imgSrc: img1 ,  description: 'Ofrecemos servicios de la más alta calidad para asegurar tu satisfacción.' },
+  { title: 'Seguridad', imgSrc: img2, description: 'Ofrecemos servicios de la más alta calidad para asegurar tu satisfacción.'  },
+  { title: 'Garantía', imgSrc: img3, description: 'Ofrecemos servicios de la más alta calidad para asegurar tu satisfacción.'  }
 ];
 
 function ValoresNosotros() {
@@ -16,6 +19,7 @@ function ValoresNosotros() {
             <figcaption key={index}>
                 <h2>{valor.title}</h2>
                 <img src={valor.imgSrc} alt={valor.title} />
+                <p>{valor.description}</p>
             </figcaption>
             ))}
         </div>

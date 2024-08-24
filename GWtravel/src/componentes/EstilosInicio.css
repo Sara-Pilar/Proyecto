@@ -216,6 +216,7 @@ nav ul li .submenu li:hover{
     text-align: center;
     margin: 20px 0;
     color: #168181;
+    font-size: 17pt;
 }
 #inicio-regiones {
     display: flex;

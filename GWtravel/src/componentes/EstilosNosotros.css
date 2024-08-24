@@ -37,20 +37,21 @@ justify-content: end;
 align-items: end;
 }
 .n-centro h1{
-    background:linear-gradient(90deg,#ffffffef,#168181,#ffffff);
+    background:linear-gradient(90deg,#ffffffef,#76bbdb,#ffffff);
 }
 
 .n-izquierda h1{
-    background:linear-gradient(90deg,#ffffff,#168181);
+    background:linear-gradient(90deg,#ffffff,#76bbdb);
     border-radius: 0 30px 30px 0;
 }
 .n-derecha h1{
-    background:linear-gradient(90deg,#168181,#ffffff);
+    background:linear-gradient(90deg,#76bbdb,#ffffff);
     border-radius: 30px 0 0 30px;
 }
 .pilaresTit{
     text-align: center;
     margin: 50px 0;
+    color:#0b16b4
 }
 
 .pilares{
@@ -62,11 +63,46 @@ align-items: end;
     
 }
 .pilares figcaption{
-    background-color: #88888a;
+    background-color: #bae9ff8f;
     width: 20%;
-    height: 400px;
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
+    position: relative;
+    cursor: pointer;
 }
+.pilares h2{
+    color: #0b16b4;
+}
+.pilares img{
+    width: 70%;
+    transition: opacity 0.8s ease;
+}
+.pilares figcaption h2 {
+    margin-bottom: 10px;
+  }
+  
+  .pilares figcaption p {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease, background-color 1s ease;
+    position: absolute;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgba(68, 29, 104, 0.527);
+    padding: 20px;
+    border-radius: 0 0 20px 20px ;
+    text-align: center;
+    font-size: 14pt;
+  }
+  
+  .pilares figcaption:hover img {
+    opacity: 0.7;
+  }
+  
+  .pilares figcaption:hover p {
+    display: block;
+    opacity: 1;
+  }

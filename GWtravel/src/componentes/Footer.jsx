@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -6,9 +7,10 @@ function Footer() {
 <footer>
         <div id="arriba">
             <div className="f-izquierdo">
-                 <a href="#">
-                <img className="logo-footer" src="" alt=""/>GW-TRAVEL
-                 </a>
+                <Link to="/">
+                <img className="" src="/path/to/logo.png" alt="Logo"/>
+                GW TRAVEL
+                </Link>
                  <p>GW Travel es una agencia de turismo que brinda la más alta 
                     experiencia en viajes, y tours a nivel nacional.
                  </p>
@@ -16,27 +18,26 @@ function Footer() {
             </div>
             <div className="f-centro">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Destinos</a>
+                    <li><Link to="/">Inicio</Link></li>
+                    <li><Link to="/PaginaNosotros">Nosotros</Link></li>
+                    <li><Link to="/PaginaNosotros">Destinos</Link>
                         <ul>
-                            <li><a href="">Costa</a></li>
-                            <li><a href="">Sierra</a></li>
-                            <li><a href="">Selva</a></li>
+                            <li><Link to="/PaginasNosotros">Costa</Link></li>
+                            <li><Link to="/PaginasNosotros">Sierra</Link></li>
+                            <li><Link to="/PaginasNosotros">Selva</Link></li>
                         </ul>
                     </li>
                </ul>
             </div>
             <div className="f-centro">
                 <ul>
-                    <li><a href="">Ofertas y promociones</a></li>
-                    <li><a href="">Testimonios</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><Link to="/PaginasNosotros">Testimonios</Link></li>
+                    <li><Link to="/PaginasNosotros">Blog</Link></li>
                 </ul>
             </div>
             <div className="f-centro">
                 <ul>
-                    <li><a href="">Contacto</a>
+                <li><Link to="/PaginasNosotros">CONTACTO</Link>
                         <ul>
                             <li>+91 987655841</li>
                             <li>info@gwtravel.com</li>
