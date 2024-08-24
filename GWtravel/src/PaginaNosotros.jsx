@@ -1,14 +1,18 @@
-import { Fragment } from "react";
-
-import ContactoInicio from './componentes/ContactoInicio.jsx'
-import Menu from './componentes/Menu.jsx'
+import React from 'react';
+import CuerpoNosotros from './componentes/CuerpoNosotros'
+import ValoresNosotros from './componentes/ValoresNosotros';
+import Footer from './componentes/Footer';
+import Puntos from './componentes/Puntos';
 
 function PaginaNosotros(){
   return(
     <>
-        <Menu/>
-        <ContactoInicio/>
+    <CuerpoNosotros/>
+    <Puntos/>
+    <ValoresNosotros/>
+    <Puntos/>
+    <Footer/>
     </>
-  )
+  );
 }
 export default PaginaNosotros;

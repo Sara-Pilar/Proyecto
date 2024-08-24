@@ -11,22 +11,21 @@ import ContactoInicio from './componentes/ContactoInicio.jsx'
 import Footer from './componentes/Footer.jsx'
 import EscrituraInicio from './componentes/EscrituraInicio.jsx'
 
+import PaginaInicio from './PaginaInicio.jsx'
+import PaginaNosotros from './PaginaNosotros.jsx'
+
 function App(){
   return(
     <>
-      <Menu/> 
-      <BannerInicio/>
-      <EscrituraInicio/>
-      <Redesflot/>
-      <BienvenidaInicio/>
-      <Puntos/>
-      <MapaInicio/>
-      <Puntos/>
-      <MReservadosInicio/>
-      <Puntos/>
-      <ContactoInicio/>
-      <Footer/>
+      
+      <Router>
+        <Menu/>
+        <Routes>
+          <Route path="/" element={<PaginaInicio/>} />
+          <Route path="/PaginaNosotros" element={<PaginaNosotros/>} />
+        </Routes>
+      </Router>
     </>
-  )
+  );
 }
 export default App;

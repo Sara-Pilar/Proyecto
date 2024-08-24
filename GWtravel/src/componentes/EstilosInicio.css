@@ -1,14 +1,9 @@
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: georgia;
-}
-h1{
-    color: #69218B;
-    font-size: 30pt;
 }
 
 /* Estilos para Encabezado */
@@ -136,12 +131,13 @@ nav ul li .submenu li:hover{
     height: 50px;
     color: #ffffff;
     background:linear-gradient(90deg,#ffffffef,#e7e7e7,#ffffff);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    box-shadow: 0 2px 4px rgba(148, 144, 144, 0.6);
     display: flex;
     align-items: center;
     justify-content: center;
     top: -95px;
     position: relative;
+    color:#69218B
 }
 #miContenedor section{
     display: flex;
@@ -367,21 +363,26 @@ nav ul li .submenu li:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color:#69218B;
+    font-size: 17pt;
+
 }
 .contact p{
 text-align: justify;
+color:black;
 }
 .contact button{
-    background-color: #C0A1FF;
+    background-color: #168181;
     padding: 10px;
     border-radius: 35px;
     margin-top: 15px;
     border: none;
     font-size: 20pt;
+    color:#ffffff
 }
 .contact button:hover{
-    background-color:#168181;
-    color: #ffffff;
+    background-color:#db9c13;
+    color: #690597;
 }
 .contact img{
     width: 100%;

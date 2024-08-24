@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 
 import '../componentes/EstilosInicio.css';
-import './EstilosInicio.css'
+
 
 function Menu() {
   useEffect(() => {
@@ -24,15 +24,15 @@ function Menu() {
       <header>
         <div id="cabecera">
           <Link to="/">
-            <img className="" src="" alt=""/>
+            <img className="" src="/path/to/logo.png" alt="Logo"/>
             GW TRAVEL
           </Link>
         </div>
         <nav>
           <ul>
             <li><Link to="/">INICIO</Link></li>
-            <li><Link to="/PaginasNosotros">NOSOTROS</Link></li>
-            <li><Link to="/PaginasNosotros">DESTINOS</Link>
+            <li><Link to="/PaginaNosotros">NOSOTROS</Link></li>
+            <li><Link to="/PaginaNosotros">DESTINOS</Link>
               <ul className="submenu">
                 <li><Link to="/PaginasNosotros">Costa</Link></li>
                 <li><Link to="/PaginasNosotros">Sierra</Link></li>
