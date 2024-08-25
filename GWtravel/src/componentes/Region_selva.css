@@ -34,8 +34,6 @@
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    background-color: aquamarine;
-
 }
 .figure{
     display: flex;
@@ -56,12 +54,11 @@
 .portadas img{
     border-radius: 8px;
     display: flex;
-    height:250px;   
+    height:300px;   
     width: 100%;
 }
 figcaption{
     text-align: center;
-    padding: 5px;
 }
 .dias{
     width: 100%;
@@ -69,18 +66,13 @@ figcaption{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    height: 35px;
-    margin: 10px 25px;
+    margin-bottom: 15px;
 }
-
-
 .lugares{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-
 .paquete{
     width: 100%;
     display: flex;
@@ -89,13 +81,11 @@ figcaption{
     align-items: center;  
 }
 .paquete button{
-    text-align: center;
-    width: 95%;
-    height: 35px;
+    
+    width: 250px;
     border: 1px solid black;
     background-color: rgb(243, 255, 198); 
     border-radius: 20px;
-    margin: 10px 25px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }  
 .paquete button:hover{
@@ -106,13 +96,4 @@ figcaption{
     text-align: center;
     flex-direction: column;
     font-size: 120%;
-}
-.lugares{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.portadas{
-    text-align: center;
-    flex-direction: column;
 }

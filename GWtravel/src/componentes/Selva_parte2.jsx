@@ -29,45 +29,48 @@ function Selva2() {
         </div>
         <div className="figure">
             <div class="portadas">
-            <img src={iquitos2} />
-            </div>
+                <img src={iquitos2} />
+            </div> 
                 <div class="lugares">
                     <figcaption>
-                    Iquitos Amazonas  
+                    Oxapampa,Pozuzo y Villa Rica  
                     </figcaption><br />
                     <div class="dias">
                         <p>
-                          5D/4N
+                        5D/4N
                         </p>
                     </div>
                     <h3 class="precio">S/.670</h3>
-                    <div class="paquete"  >
-                        <button type="button" onclick="paqute2()">
+                    <div class="paquete">
+                        <button type="button" onclick="paqute1()">
                             Ver paquete
                         </button> 
-                    </div>
+                    </div>   
                 </div>
+
         </div>
         <div className="figure">
-                <div class="portadas">
+            <div class="portadas">
                 <img src={chanchamayo2} />
-                </div>
+            </div> 
                 <div class="lugares">
                     <figcaption>
-                        Chanchamayo, Oxapampa,Pozuzo y Villa Rica 
-                    </figcaption>
+                    Chanchamayo, Oxapampa,Pozuzo
+                     y Villa Rica   
+                    </figcaption><br />
                     <div class="dias">
-                       <p>
-                          5D/4N
-                       </p>
+                        <p>
+                        5D/4N
+                        </p>
                     </div>
-                    <h3 class="precio">S/.595</h3>
+                    <h3 class="precio">S/.295</h3>
                     <div class="paquete">
-                        <button type="button" onclick="paqute3()">
+                        <button type="button" onclick="paqute1()">
                             Ver paquete
                         </button> 
-                    </div>
+                    </div>   
                 </div>
+
         </div>
     </div>
 
