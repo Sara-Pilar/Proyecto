@@ -9,7 +9,7 @@ function Testimonios_coments() {
                <h3>Deja tu comentario</h3>
                <input type="text" id="userName" placeholder="Tu nombre"/>
                <textarea id="userComment" rows="4" placeholder="Escribe tu comentario aquí..."></textarea>
-               <button onclick="addComment()">Enviar</button>
+               <button className="comiboton" onclick="addComment()">Enviar</button>
             </div>
         
             <div class="comment-display" id="commentDisplay">

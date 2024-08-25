@@ -11,7 +11,7 @@ function Testimonios_user() {
             <h1>¿Qué dicen nuestros usuarios?</h1>
          
             <div className='misusuarios'>
-                <div className="figure">
+                <div className="figura">
                     <figcaption> @Sonne_peruvian24</figcaption>
                     <div class="iconos">
                         <img src={t_user_1} />
@@ -26,7 +26,7 @@ function Testimonios_user() {
                         </p> <br /><br />
                         <p className="opinion"><strong>Excelente trabajo</strong></p>
                 </div>
-                <div className="figure">
+                <div className="figura">
                     <figcaption> @Gian_Marco</figcaption>
                     <div class="iconos">
                         <img src={t_user_2} />
@@ -41,7 +41,7 @@ function Testimonios_user() {
                         </p> <br /><br />
                         <p className="opinion"><strong>¡Gracias por todo!</strong></p>
                 </div>
-                <div className="figure">
+                <div className="figura">
                     <figcaption> @Kimberly_Garcia</figcaption>
                     <div class="iconos">
                         <img src={t_user_3} />

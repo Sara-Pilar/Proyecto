@@ -1,9 +1,13 @@
 import oxapampa2 from '../imagenes/oxapampa2.jpg'
 import iquitos2 from '../imagenes/iquitos2.jpg'
 import chanchamayo2 from '../imagenes/chanchamayo2.jpg'
+import './Region_selva.css'
 function Selva2() {
     return (
     <>
+    <div class="titulo">
+         <h2>Paquetes en oferta</h2>
+        </div>
     <div className="section">
         <div className="figure">
             <div class="portadas">

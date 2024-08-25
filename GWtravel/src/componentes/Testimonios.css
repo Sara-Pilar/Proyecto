@@ -36,7 +36,7 @@
     width: 70%;
     gap: 20px;
 }
-.figure {
+.figura {
     background-color: rgb(255, 240, 233);
     width: 30%;
     height: 500px;
@@ -54,14 +54,14 @@
     text-align: center;
     flex-direction: column;
 }
-.figure figcaption{
+.figura figcaption{
     font-size: 20px;
     margin: 10px;
     text-align: center;
     color: #03bfe0;
 }
 
-.figure figcaption:hover{
+.figura figcaption:hover{
     font-size: 20px;
     margin: 10px;
     text-align: center;
@@ -118,7 +118,7 @@ h3 {
 .comment p {
     margin: 5px 0 0 0;
 }
-button{
+.comiboton{
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -129,7 +129,9 @@ button{
     background-color: #bcf7c4;
 }
 
-button:hover {
+.comiboton:hover {
     background-color: #45a049;
+    color: #ffffff;
+    border-radius: 10px;
 }
 
