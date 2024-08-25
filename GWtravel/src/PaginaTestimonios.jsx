@@ -7,6 +7,7 @@ function PaginaTestimonios() {
   return (
     <div>
       <Testimonios_user/>
+      <Puntos/>
       <Testimonios_coments/>
     </div>
   );
