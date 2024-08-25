@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: georgia;
+  
 }
 
 /* Estilos para Encabezado */
@@ -169,7 +170,7 @@ nav ul li .submenu li:hover{
     padding: 10px;
     font-size: 50px;
     font-weight: 700;
-    max-width: 30%; /* Limitar el ancho del párrafo */
+    max-width: 30%; 
     z-index: 3;
 }
 

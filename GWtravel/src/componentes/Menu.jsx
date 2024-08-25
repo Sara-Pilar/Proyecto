@@ -36,10 +36,10 @@ function Menu() {
               <ul className="submenu">
                 <li><Link to="/PaginasNosotros">Costa</Link></li>
                 <li><Link to="/PaginasNosotros">Sierra</Link></li>
-                <li><Link to="/PaginasNosotros">Selva</Link></li>
+                <li><Link to="/PaginaSelva">Selva</Link></li>
               </ul>
             </li>
-            <li><Link to="/PaginasNosotros">TESTIMONIOS</Link></li>
+            <li><Link to="/PaginaTestimonios">TESTIMONIOS</Link></li>
             <li><Link to="/PaginasNosotros">BLOG</Link></li>
             <li><Link to="/PaginasNosotros">CONTACTO</Link></li>
           </ul>
