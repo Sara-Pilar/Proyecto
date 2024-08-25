@@ -6,6 +6,7 @@ import PaginaNosotros from './PaginaNosotros.jsx'
 import PaginaSelva from './PaginaSelva.jsx'
 import PaginaTestimonios from './PaginaTestimonios.jsx'
 import Footer from "./componentes/Footer.jsx";
+import PaginaBlog from './PaginaBlog.jsx'
 
 function App(){
   return(
@@ -18,6 +19,7 @@ function App(){
           <Route path="/PaginaNosotros" element={<PaginaNosotros/>} />
           <Route path="/PaginaSelva" element={<PaginaSelva/>} />
           <Route path="/PaginaTestimonios" element={<PaginaTestimonios/>} />
+          <Route path="/PaginaBlog" element={<PaginaBlog/>} />
         </Routes>
         <Footer/>
       </Router>

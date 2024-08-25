@@ -8,7 +8,7 @@ function Selva2() {
     <div class="titulo">
          <h2>Paquetes en oferta</h2>
         </div>
-    <div className="section">
+    <div className="sectionSelva">
         <div className="figure">
             <div class="portadas">
                 <img src={oxapampa2} />

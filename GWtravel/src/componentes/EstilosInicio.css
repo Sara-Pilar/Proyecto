@@ -237,17 +237,17 @@ nav ul li .submenu li:hover{
     display: flex;
     align-items: center;
 }
-.costa, .sierra, .selva {
+.icosta, .isierra, .iselva {
     display: flex;
     align-items: center;
     justify-content: end;
     text-decoration: none;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
-.sierra{
+.isierra{
     margin-right: -100px;
 }
-.costa p, .sierra p, .selva p {
+.icosta p, .isierra p, .iselva p {
     background-color: #168181;
     width: 200px;
     padding: 10px 25px;
@@ -258,11 +258,11 @@ nav ul li .submenu li:hover{
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.562);
 }
 
-.selva p {
+.iselva p {
     border-radius: 0 25px 25px 0;
 }
 
-.costa img, .sierra img, .selva img {
+.icosta img, .isierra img, .iselva img {
     width: 120px;
     margin-left: -15px;
     border-radius: 150px;
@@ -270,7 +270,7 @@ nav ul li .submenu li:hover{
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.selva img {
+.iselva img {
     margin-left: -280px;
 }
 
@@ -476,10 +476,11 @@ footer::before {
 .f-centro ul li a:hover{
     color: #1dacff;
 }
-.linea{
+.linea {
     width: 100%;
     margin: 10px 0;
 }
+
 #final{
     width: 95%;
     display: flex;

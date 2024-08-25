@@ -40,7 +40,7 @@ function Menu() {
               </ul>
             </li>
             <li><Link to="/PaginaTestimonios">TESTIMONIOS</Link></li>
-            <li><Link to="/PaginasNosotros">BLOG</Link></li>
+            <li><Link to="/PaginaBlog">BLOG</Link></li>
             <li><Link to="/PaginasNosotros">CONTACTO</Link></li>
           </ul>
         </nav>

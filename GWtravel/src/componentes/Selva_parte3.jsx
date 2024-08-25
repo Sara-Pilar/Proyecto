@@ -9,7 +9,7 @@ function Selva3() {
         <h2>Paquetes para viajes de promoción</h2>
        </div>
        
-    <div className="section"> 
+    <div className="sectionSelva"> 
        <div className='figure'>
                 <div class="portadas">
                    <img src={lamerced2} />

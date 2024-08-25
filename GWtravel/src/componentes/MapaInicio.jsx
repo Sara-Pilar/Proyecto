@@ -21,7 +21,7 @@ function MapaInicio() {
       <div id="inicio-regiones">
         <section className="izquierda">
           <a
-            className="costa"
+            className="icosta"
             href=""
             onMouseEnter={() => { cambiarImagenCentro(mapaCosta); setZoomClass('zoom-in'); }}
             onMouseLeave={() => { cambiarImagenCentro(mapa); setZoomClass('zoom-out'); }}
@@ -31,7 +31,7 @@ function MapaInicio() {
           </a>
          
           <a
-            className="sierra"
+            className="isierra"
             href=""
             onMouseEnter={() => { cambiarImagenCentro(mapaSierra); setZoomClass('zoom-in'); }}
             onMouseLeave={() => { cambiarImagenCentro(mapa); setZoomClass('zoom-out'); }}
@@ -45,7 +45,7 @@ function MapaInicio() {
         </section>
         <section className="derecha">
           <a
-            className="selva"
+            className="iselva"
             href=""
             onMouseEnter={() => { cambiarImagenCentro(mapaSelva); setZoomClass('zoom-in'); }}
             onMouseLeave={() => { cambiarImagenCentro(mapa); setZoomClass('zoom-out'); }}
