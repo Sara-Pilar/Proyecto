@@ -7,6 +7,7 @@ import PaginaSelva from './PaginaSelva.jsx'
 import PaginaTestimonios from './PaginaTestimonios.jsx'
 import Footer from "./componentes/Footer.jsx";
 import PaginaBlog from './PaginaBlog.jsx'
+import PaginaDestino from './PaginaDestino.jsx'
 
 function App(){
   return(
@@ -20,6 +21,7 @@ function App(){
           <Route path="/PaginaSelva" element={<PaginaSelva/>} />
           <Route path="/PaginaTestimonios" element={<PaginaTestimonios/>} />
           <Route path="/PaginaBlog" element={<PaginaBlog/>} />
+          <Route path="/PaginaDestino" element={<PaginaDestino/>} />
         </Routes>
         <Footer/>
       </Router>

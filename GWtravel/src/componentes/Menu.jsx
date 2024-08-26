@@ -32,7 +32,7 @@ function Menu() {
           <ul>
             <li><Link to="/">INICIO</Link></li>
             <li><Link to="/PaginaNosotros">NOSOTROS</Link></li>
-            <li><Link to="/PaginaNosotros">DESTINOS</Link>
+            <li><Link to="/PaginaDestino">DESTINOS</Link>
               <ul className="submenu">
                 <li><Link to="/PaginasNosotros">Costa</Link></li>
                 <li><Link to="/PaginasNosotros">Sierra</Link></li>
