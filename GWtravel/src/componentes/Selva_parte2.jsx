@@ -25,9 +25,11 @@ function Selva2() {
                     </div>
                     <h3 class="precio">S/.295</h3>
                     <div class="paquete">
+                    <Link to="/PaginaOxapampa">
                         <button type="button" onclick="paqute1()">
-                            Ver paquete
-                        </button> 
+                        Ver paquete
+                        </button>
+                    </Link>
                     </div>   
                 </div>
 
@@ -47,7 +49,7 @@ function Selva2() {
                     </div>
                     <h3 class="precio">S/.670</h3>
                     <div class="paquete">
-                    <Link to="/PaginaLima">
+                    <Link to="/PaginaIquitos">
                         <button type="button" onclick="paqute1()">
                         Ver paquete
                         </button>
@@ -72,7 +74,7 @@ function Selva2() {
                     </div>
                     <h3 class="precio">S/.295</h3>
                     <div class="paquete">
-                    <Link to="/PaginaLima">
+                    <Link to="/PaginaChanchamayo">
                         <button type="button" onclick="paqute1()">
                         Ver paquete
                         </button>

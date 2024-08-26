@@ -13,7 +13,7 @@ function Testimonios_user() {
             <div className='misusuarios'>
                 <div className="figura">
                     <figcaption> @Sonne_peruvian24</figcaption>
-                    <div class="iconos">
+                    <div class="iconosU">
                         <img src={t_user_1} />
                     </div>     
                         <p className="textoU">
@@ -28,7 +28,7 @@ function Testimonios_user() {
                 </div>
                 <div className="figura">
                     <figcaption> @Gian_Marco</figcaption>
-                    <div class="iconos">
+                    <div class="iconosU">
                         <img src={t_user_2} />
                     </div>     
                         <p className="textoU">
@@ -43,7 +43,7 @@ function Testimonios_user() {
                 </div>
                 <div className="figura">
                     <figcaption> @Kimberly_Garcia</figcaption>
-                    <div class="iconos">
+                    <div class="iconosU">
                         <img src={t_user_3} />
                     </div>     
                     <p className="textoU">

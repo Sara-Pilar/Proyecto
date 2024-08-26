@@ -8,6 +8,7 @@ import Fondo4 from '../imagenes/Logo-5.jpg'
 import IMGCosta from '../imagenes/Costa.jpg'
 import IMGSierra from '../imagenes/Sierra.jpg'
 import IMGSelva from '../imagenes/Selva.jpg'
+import { Link } from 'react-router-dom';
 
 function destino() {
     return (
@@ -72,7 +73,7 @@ function destino() {
                                 mientras que en el sur es más templado.
                             </p>
                             <div className="link">
-                                <a href="../Paginas/costa.html">Ver Rutas</a>
+                                <a href="../Paginas/costa.html"><Link to="/PaginaCosta">Ver Rutas</Link></a>
                             </div>
                         </div>
                     </div>
@@ -90,7 +91,7 @@ function destino() {
                                 En algunas zonas se presentan lluvias estacionales.
                             </p>
                             <div className="link">
-                                <a href="../Paginas/sierra.html">Ver Rutas</a>
+                                <a href="../Paginas/sierra.html"><Link to="/PaginaSierra">Ver Rutas</Link></a>
                             </div>
                         </div>
                     </div>
@@ -108,7 +109,7 @@ function destino() {
                                 permite una gran biodiversidad.
                             </p>
                             <div className="link">
-                                <a href="../Paginas/selva.html">Ver Rutas</a>
+                                <a href="../Paginas/selva.html"><Link to="/PaginaSelva">Ver Rutas</Link></a>
                             </div>
                         </div>
                     </div>

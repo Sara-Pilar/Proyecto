@@ -39,18 +39,18 @@
 .figura {
     background-color: rgb(255, 240, 233);
     width: 30%;
-    height: 500px;
+    height: 530px;
     border: 1px solid #7327bb;
     border-radius: 8px;
     box-shadow: 0 0 15px #a65bd8;
 }
-.iconos img{
-    width: 65%;
-    height: 200px;
+.iconosU img{
+    width: 70%;
+    height: 150px;
     border:5px solid rgb(79, 6, 94);
     border-radius: 100px;
 }
-.iconos{
+.iconosU{
     text-align: center;
     flex-direction: column;
 }

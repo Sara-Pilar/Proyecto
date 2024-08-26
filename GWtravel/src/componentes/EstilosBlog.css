@@ -55,7 +55,7 @@ header.abajo ul li a{
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 10px 0;
+    margin-bottom: 50px;
 }
 .linea-horizontal hr{
     width: 50%;
@@ -70,8 +70,8 @@ header.abajo ul li a{
     justify-content: center;
 }
 .ratio{
-    width: 35%;
-    height: 45vh;
+    width: 50%;
+    height: 60vh;
     box-shadow: -10px 0px 50px 35px rgba(45, 0, 248, 0.212);
     padding: 20px;
     display: flex;
@@ -91,7 +91,7 @@ header.abajo ul li a{
     width: 400px;  
 }
 .costa, .sierra, .selva{
-    width: 30%;
+    width: 35%;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -102,7 +102,7 @@ header.abajo ul li a{
     margin: 150px 0px;
 }
 .tresimagen img{
-    width: 400px;
+    width: 350px;
     margin: 10px 0px 10px 30px;
     padding: 0px 20px;
 }
@@ -204,47 +204,55 @@ main{
 }
 
 /*blog imagenes*/
-.secuno{
+.secuno, .secdos{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
     
 }
-.secdos{
-    width: 100%;   
+
+.filablog, .filablogdos{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 30px;
 }
 
 .filablog div{
-float:left;
+
 justify-items: center;
 
 }
 .filablogdos div{
-    float: left;
-    justify-items: center;
-    
    
+    justify-items: center;  
 }
 .filablogtres div{
-    float: left;
+
     justify-items: center;
 }
-.mancora{
+.mancora, .montana, .lago{
     width: 450px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    top:0;
+    align-items: center;
     
 }
-.mancora img{
-
+.mancora img, .montana img, .lago img{
     justify-content: center; 
     padding: 20px 30px 20px 30px;
-    margin: 10px 0px 0px 50px;
-
     box-shadow: 10px 5px 20px rgba(120, 137, 192, 0.801);
     height: 40vh;
     width: 350px;
+    margin-bottom: 20px;
 }
+
 .icon-link {
     margin: 0px 0px 0px 50px;
     font-weight:bold;
@@ -252,111 +260,48 @@ justify-items: center;
     height: 40px;
     width: 100px;
 }
-.mancora h1{
+.mancora h1, .montana h1, .lago h1{
     width: 270px;
     color: rgb(13, 13, 14);
     font-size: 25px;
     text-align: center; 
-    padding: 0px 0px 10px 0px;
-    margin: 10px 0px 0px 70px;    
 }
-.mancora p{
-    width: 380px;
-    margin: 0px 0px 0px 35px;
+.mancora p, .montana p, .lago p{
+   width: 100%;
     text-align: center; 
     padding: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px; 
     text-wrap: balance;
 }
-.montana{
-    width: 450px;
-   
-}
-.montana img{
-    justify-content: center; 
-    padding: 20px 30px 20px 30px;
-    margin: 10px 0px 0px 50px;
-
-    box-shadow: 10px 5px 20px rgba(120, 137, 192, 0.801);
-    height: 40vh;
-    width: 350px;
-}
-.montana h1{
-    width: 270px;
-    color: rgb(13, 13, 14);
-    font-size: 25px;
-    text-align: center; 
-    padding: 0px 0px 10px 0px; 
-    margin: 10px 0px 0px 70px;  
-}
-.montana p{
-    width: 370px;
-    margin: 0px 0px 10px 15px;
-    text-align: center; 
-    padding: 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    text-wrap: balance;  
-}
-
-.lago{
-    width: 400px;    
-}
-.lago img{
-    justify-content: center; 
-    padding: 20px 30px 20px 30px;
-    margin: 10px 0px 0px 50px;
-
-    box-shadow: 10px 5px 20px rgba(120, 137, 192, 0.801);
-    height: 40vh;
-    width: 350px;
-}
-.lago h1{
-    width: 340px;
-    color: rgb(13, 13, 14);
-    font-size: 25px;
-    text-align: center; 
-    padding: 0px 0px 10px 0px;
-    margin: 10px 0px 0px 50px;  
-}
-.lago p{
-    width: 380px;
-    margin: 0px 0px 10px 30px;
-    text-align: center; 
-    padding:2px 0px 0px 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    text-wrap: balance;    
-}
-
 
 /*seccion dos*/
 
-.manglares{
+.manglares, .colca, .oasis{
     width: 450px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    top:0;
+    align-items: center;
     
 }
-.manglares img{
+.manglares img, .colca img, .oasis img{
     justify-content: center; 
     padding: 20px 30px 20px 30px;
-    margin: 10px 0px 0px 50px;
-
     box-shadow: 10px 5px 20px rgba(120, 137, 192, 0.801);
     height: 40vh;
     width: 350px;
+    margin-bottom: 20px;
 }
-.manglares h1{
+.manglares h1, .colca h1, .oasis h1{
     width: 270px;
     color: rgb(13, 13, 14);
     font-size: 25px;
     text-align: center; 
-    padding: 0px 0px 10px 0px;
-    margin: 10px 0px 0px 70px;   
 }
-.manglares p{
-    width: 380px;
-    margin: 0px 0px 0px 35px;
+.manglares p, .colca p, .oasis p{
+   width: 100%;
     text-align: center; 
     padding: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -364,63 +309,4 @@ justify-items: center;
     text-wrap: balance;
 }
 
-.colca{
-    width: 450px;
-    
-}
-.colca img{
-    justify-content: center; 
-    padding: 20px 30px 20px 30px;
-    margin: 10px 0px 0px 50px;
 
-    box-shadow: 10px 5px 20px rgba(120, 137, 192, 0.801);
-    height: 40vh;
-    width: 350px;
-}
-.colca h1{
-    width: 270px;
-    color: rgb(13, 13, 14);
-    font-size: 25px;
-    text-align: center; 
-    padding: 0px 0px 10px 0px;
-    margin: 10px 0px 0px 70px;   
-}
-.colca p{
-    width: 380px;
-    margin: 0px 0px 0px 35px;
-    text-align: center; 
-    padding: 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px; 
-    text-wrap: balance;
-}
-.oasis{
-    width: 400px;
-    
-}
-.oasis img{
-    justify-content: center; 
-    padding: 20px 30px 20px 30px;
-    margin: 10px 0px 0px 50px;
-
-    box-shadow: 10px 5px 20px rgba(120, 137, 192, 0.801);
-    height: 40vh;
-    width: 350px;
-}
-.oasis h1{
-    width: 270px;
-    color: rgb(13, 13, 14);
-    font-size: 25px;
-    text-align: center; 
-    padding: 0px 0px 10px 0px;
-    margin: 10px 0px 0px 70px;    
-}
-.oasis p{
-    width: 380px;
-    margin: 0px 0px 0px 35px;
-    text-align: center; 
-    padding: 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px; 
-    text-wrap: balance;
-}

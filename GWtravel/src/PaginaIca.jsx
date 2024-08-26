@@ -2,9 +2,9 @@ import { Fragment } from "react";
 import Banner_costa from './componentes/BannerCosta';
 import DescripcionCosta from "./componentes/DescripcionCosta";
 import CCompra from './componentes/CCompra';
-import Lima from './imagenes/Lima-Costa.jpg'
+import Ica from './imagenes/Ica-Costa.jpg'
 import './componentes/Costa.css';
-import DesLima from './imagenes/Lima-Compra.jpg'
+import DesIca from './imagenes/Ica-Compra.jpg'
 
 
 function PaginaIca() {
@@ -12,40 +12,38 @@ function PaginaIca() {
     return (
         <>
          <Banner_costa
-            imagen={Lima}
-            nombre = "Lima"
+            imagen={Ica}
+            nombre = "Ica"
             />
 
             <div className="content">
                 <DescripcionCosta
-                imagen={DesLima}
-                deDonde="Del aeropuerto Jorge Chavez a Miraflores."
-                tiempo="En bus : 50 min"
-                precio="S/ 145"
-                descripcion="Empezaremos el City Tour en  <strong>Lima</strong>con el lugar que usted haya
-                seleccionado. Iremos al lugar con el apoyo de nuestros guias que les daran
+                imagen={DesIca}
+                deDonde="De Lima a Ica."
+                tiempo="En bus : 5 horas"
+                precio="S/ 175"
+                descripcion="Empezaremos el City Tour en Ica. Iremos al lugar con el apoyo de nuestros guias que les daran
                 recomendaciones. Los lugares seleccionados seran visitados todo el dia, conociendo la variedad
-                de actividades que hay en cada lugar de Lima."
+                de actividades que hay en cada lugar de Ica."
                 />
 
                 {/*Contenido de la derecha */}
 
                 <CCompra
-                    actividad1="Visitar el Centro Histórico"
-                    actividad2="Disfrutar de la Gastronomía"
-                    actividad3="Pasear por el Malecón de Miraflores"
-                    actividad4="Explorar Barranco"
-                    actividad5="Visitar el Museo Larco"
-                    actividad6="Navegar por el Circuito Mágico del Agua"
-                    actividad7="Recorrer las Ruinas de Huaca Pucllana"
-                    actividad8="Degustar en una Ruta del Pisco Sour"
+                    actividad1="Visitar el Oasis de Huacachina"
+                    actividad2="Hacer Sandboarding y paseos emn Buggy"
+                    actividad3="Explorar la Bodega y Viñedos"
+                    actividad4="Recorrer el Museo Regional de Ica"
+                    actividad5="Visitar las Líneas de Nazca"
+                    actividad6=" Explorar la Huaca de La Luna"
+                    actividad7="Disfrutar de las Playas de Ica"
+                    actividad8="Visitar el Santuario de Flora y Fauna de Paracas Visitar el Santuario de Flora y Fauna de Paracas"
 
-                    recomendacion1="Asegúrate de tener tu pasaporte válido."
-                    recomendacion2="Casaca cortaviento, gorro, gafas, cantimplora."
-                    recomendacion3="Lleva algo de efectivo y tarjetas de crédito, y cambia dinero en casas de cambio o bancos
-                        oficiales."
-                    recomendacion4="Bloqueador solar.."
-                    recomendacion5="Dinero extra en Soles Peruanos."
+                    recomendacion1="Lleve ropa ligera."
+                    recomendacion2="Lleva gafas de sol y un sombrero o gorra."
+                    recomendacion3="Zapatillas de montaña."
+                    recomendacion4="Bloqueador solar."
+                    recomendacion5="Mantente bien hidratado."
                 />
                 
             </div>

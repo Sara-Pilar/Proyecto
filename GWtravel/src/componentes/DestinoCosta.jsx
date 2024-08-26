@@ -79,7 +79,7 @@ function destinoCosta() {
                     <p>
                         Hogar de las enigmáticas líneas que desafían el tiempo.
                     </p><br />
-                    <Link to="/PaginaNosotros">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
+                    <Link to="/PaginaNazca">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
                     </Link>
                     <FontAwesomeIcon 
                         icon={faHeart}
@@ -94,7 +94,7 @@ function destinoCosta() {
                     <h3>Máncora</h3>
                     <p>Relájate en las soleadas playas de Máncora.</p>
                     <br />
-                    <Link to="/PaginaNosotros">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
+                    <Link to="/PaginaMancora">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
                     </Link>
                     <FontAwesomeIcon 
                         icon={faHeart}
@@ -109,7 +109,7 @@ function destinoCosta() {
                     <h3>Tumbes</h3>
                     <p>Descansa en las tranquilas playas de Tumbes.</p>
                     <br />
-                    <Link to="/PaginaNosotros">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
+                    <Link to="/PaginaTumbes">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
                     </Link>
                     <FontAwesomeIcon 
                         icon={faHeart}

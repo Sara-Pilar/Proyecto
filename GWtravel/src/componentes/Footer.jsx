@@ -37,7 +37,7 @@ function Footer() {
             </div>
             <div className="f-centro">
                 <ul>
-                <li><Link to="/PaginasNosotros">CONTACTO</Link>
+                <li><Link to="/PaginaContacto">CONTACTO</Link>
                         <ul>
                             <li>+91 987655841</li>
                             <li>info@gwtravel.com</li>

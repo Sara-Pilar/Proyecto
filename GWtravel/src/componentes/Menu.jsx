@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
-
+import logoGW from '../imagenes/logo 2.png'
 import '../componentes/EstilosInicio.css';
 
 
@@ -24,7 +24,7 @@ function Menu() {
       <header>
         <div id="cabecera">
           <Link to="/">
-            <img className="" src="/path/to/logo.png" alt="Logo"/>
+            <img className="logoMenu" src={logoGW} alt="Logo"/>
             GW TRAVEL
           </Link>
         </div>
