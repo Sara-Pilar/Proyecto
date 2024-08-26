@@ -62,7 +62,7 @@ function destinoCosta() {
                         El desierto cobra vida con sus imponentes dunas y el encantador
                         oasis de Huacachina.
                     </p>
-                        <Link to="/PaginaNosotros">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
+                        <Link to="/PaginaIca">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
                         </Link>
 
                     <FontAwesomeIcon 

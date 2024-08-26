@@ -41,7 +41,7 @@ function Menu() {
             </li>
             <li><Link to="/PaginaTestimonios">TESTIMONIOS</Link></li>
             <li><Link to="/PaginaBlog">BLOG</Link></li>
-            <li><Link to="/PaginasNosotros">CONTACTO</Link></li>
+            <li><Link to="/PaginaContacto">CONTACTO</Link></li>
           </ul>
         </nav>
       </header>

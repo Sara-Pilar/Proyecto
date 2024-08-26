@@ -7,7 +7,7 @@ import './componentes/Costa.css';
 import DesLima from './imagenes/Lima-Compra.jpg'
 
 
-function PaginaLima() {
+function PaginaIca() {
     
     return (
         <>
@@ -50,7 +50,7 @@ function PaginaLima() {
                 
             </div>
         </>
-    )
+    );
 }
 
-export default PaginaLima;
+export default PaginaIca;

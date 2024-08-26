@@ -11,6 +11,8 @@ import PaginaDestino from './PaginaDestino.jsx'
 import PaginaCosta from "./PaginaCosta.jsx";
 import PaginaLima from './PaginaLima.jsx'
 import PaginaParacas from "./PaginaParacas.jsx";
+import PaginaIca from "./PaginaIca.jsx";
+import PaginaContacto from "./PaginaContacto.jsx";
 
 function App(){
   return(
@@ -28,6 +30,8 @@ function App(){
           <Route path="/PaginaCosta" element={<PaginaCosta/>} />
           <Route path="/PaginaLima" element={<PaginaLima/>} />
           <Route path="/PaginaParacas" element={<PaginaParacas/>} />
+          <Route path="/PaginaContacto" element={<PaginaContacto/>} />
+          <Route path="/PaginaIca" element={<PaginaIca/>} />
         </Routes>
         <Footer/>
       </Router>

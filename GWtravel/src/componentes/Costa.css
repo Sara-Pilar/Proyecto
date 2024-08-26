@@ -42,6 +42,7 @@ body {
 .max-min{
     width: 100px;
     border-radius: 15px;
+    margin: 10px;
     border: 1px solid #4181e2;
     font-size: 15pt;
     background-color: #4181e2;
@@ -92,7 +93,17 @@ body {
     flex-direction: column;
     gap: 15px;
 }
-
+.formulario-compra{
+    display: flex;
+    flex-direction: column;
+}
+.fdias, .fbotones{
+    display: flex;
+    justify-content: center;
+}
+#num1, #num2{
+    font-size: 17pt;
+}
 .toggle-button{
     width: 100%;
     margin-bottom: 0;
@@ -101,6 +112,7 @@ body {
     border-radius: 18px;
     border: none;
     background-color: #48bbfd;
+    color: #000;
 }
 
 .toggle-button:hover{
@@ -117,12 +129,12 @@ body {
     color: white;
 }
 
-label {
+.fdias label {
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-input[type="date"],
+.formulario-compra  input[type="date"],
 select {
     padding: 10px;
     border-radius: 5px;
@@ -130,6 +142,11 @@ select {
     width: 100%;
 }
 
+.dropdown-content{
+    display: flex;
+    flex-direction: column;
+
+}
 .Text2{
     font-size: 10pt;
 }

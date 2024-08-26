@@ -31,21 +31,8 @@ function PaginaLima() {
                 {/*Contenido de la derecha */}
 
                 <CCompra
-                    actividad1="Visitar el Centro Histórico"
-                    actividad2="Disfrutar de la Gastronomía"
-                    actividad3="Pasear por el Malecón de Miraflores"
-                    actividad4="Explorar Barranco"
-                    actividad5="Visitar el Museo Larco"
-                    actividad6="Navegar por el Circuito Mágico del Agua"
-                    actividad7="Recorrer las Ruinas de Huaca Pucllana"
-                    actividad8="Degustar en una Ruta del Pisco Sour"
-
-                    recomendacion1="Asegúrate de tener tu pasaporte válido."
-                    recomendacion2="Casaca cortaviento, gorro, gafas, cantimplora."
-                    recomendacion3="Lleva algo de efectivo y tarjetas de crédito, y cambia dinero en casas de cambio o bancos
-                        oficiales."
-                    recomendacion4="Bloqueador solar.."
-                    recomendacion5="Dinero extra en Soles Peruanos."
+                    recomendacion1="Hola"
+                    recomendacion2="Hola"
                 />
                 
             </div>

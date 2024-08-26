@@ -2,7 +2,8 @@ import { Fragment } from "react";
 import React, {useState} from "react";
 import './Costa.css'
 
-function compra({ recomendacion1, recomendacion2, recomendacion3, recomendacion4, recomendacion5 }) {
+function compra({ recomendacion1, recomendacion2, recomendacion3, recomendacion4, recomendacion5,
+        actividad1, actividad2, actividad3, actividad4, actividad5, actividad6, actividad7, actividad8 }) {
     const [numBox, setNumBox] = useState(2); // Número de actividades
     const [num1, setNum1] = useState(2); // Número de días
     const [num2, setNum2] = useState(1); // Número de noches
@@ -90,13 +91,17 @@ function compra({ recomendacion1, recomendacion2, recomendacion3, recomendacion4
     return (
         <>
             <div className="right">
-                <div>
-                    <label htmlFor="num1">Día</label>
+                <div className="formulario-compra">
+                    <div className="fdias">
+                    <label htmlFor="num1">Día: </label>
                     <input type="number" id="num1" value={num1} readOnly />
-                    <label htmlFor="num2">Noche</label>
+                    <label htmlFor="num2">Noche: </label>
                     <input type="number" id="num2" value={num2} readOnly /><br /><br />
-                    <button className="max-min" type="button" onClick={aumentar}>+</button>
-                    <button className="max-min" type="button" onClick={disminuir}>-</button>
+                    </div>
+                    <div className="fbotones">
+                        <button className="max-min" type="button" onClick={aumentar}>+</button>
+                        <button className="max-min" type="button" onClick={disminuir}>-</button>
+                    </div>
                 </div>
 
                 <label htmlFor="fecha">Escoger fecha</label>
@@ -108,14 +113,14 @@ function compra({ recomendacion1, recomendacion2, recomendacion3, recomendacion4
                     </div>
 
                     <div className="dropdown-content">
-                        <input type="checkbox" name="optionLugar" value="Visitar el Centro Histórico" onChange={handleCheckboxChange} /> Visitar el Centro Histórico<br />
-                        <input type="checkbox" name="optionLugar" value="Disfrutar de la Gastronomía" onChange={handleCheckboxChange} /> Disfrutar de la Gastronomía<br />
-                        <input type="checkbox" name="optionLugar" value="Pasear por el Malecón de Miraflores" onChange={handleCheckboxChange} /> Pasear por el Malecón de Miraflores<br />
-                        <input type="checkbox" name="optionLugar" value="Explorar Barranco" onChange={handleCheckboxChange} /> Explorar Barranco<br />
-                        <input type="checkbox" name="optionLugar" value="Visitar el Museo Larco" onChange={handleCheckboxChange} /> Visitar el Museo Larco<br />
-                        <input type="checkbox" name="optionLugar" value="Navegar por el Circuito Mágico del Agua" onChange={handleCheckboxChange} /> Navegar por el Circuito Mágico del Agua<br />
-                        <input type="checkbox" name="optionLugar" value="Recorrer las Ruinas de Huaca Pucllana" onChange={handleCheckboxChange} /> Recorrer las Ruinas de Huaca Pucllana<br />
-                        <input type="checkbox" name="optionLugar" value="Degustar en una Ruta del Pisco Sour" onChange={handleCheckboxChange} /> Degustar en una Ruta del Pisco Sour<br />
+                        <input type="checkbox" name="optionLugar" value="Visitar el Centro Histórico" onChange={handleCheckboxChange} /> {actividad1}<br />
+                        <input type="checkbox" name="optionLugar" value="Disfrutar de la Gastronomía" onChange={handleCheckboxChange} /> {actividad2}<br />
+                        <input type="checkbox" name="optionLugar" value="Pasear por el Malecón de Miraflores" onChange={handleCheckboxChange} /> {actividad3}<br />
+                        <input type="checkbox" name="optionLugar" value="Explorar Barranco" onChange={handleCheckboxChange} />{actividad4}<br />
+                        <input type="checkbox" name="optionLugar" value="Visitar el Museo Larco" onChange={handleCheckboxChange} /> {actividad5}<br />
+                        <input type="checkbox" name="optionLugar" value="Navegar por el Circuito Mágico del Agua" onChange={handleCheckboxChange} /> {actividad6}<br />
+                        <input type="checkbox" name="optionLugar" value="Recorrer las Ruinas de Huaca Pucllana" onChange={handleCheckboxChange} /> {actividad7}<br />
+                        <input type="checkbox" name="optionLugar" value="Degustar en una Ruta del Pisco Sour" onChange={handleCheckboxChange} /> {actividad8}<br />
                     </div>
                 </div>
 
