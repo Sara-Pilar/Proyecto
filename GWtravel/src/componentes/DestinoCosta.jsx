@@ -8,6 +8,7 @@ import icaCosta from '../imagenes/Ica-Costa.jpg'
 import nazcaCosta from '../imagenes/Nazca-Costa.jpg'
 import mancoraCosta from '../imagenes/Playa-Mancora.jpg'
 import tumbezCosta from '../imagenes/Tumbez-Costa.jpg'
+import { Link } from 'react-router-dom';
 import './DestinoCosta.css'
 
 function destinoCosta() {
@@ -29,9 +30,8 @@ function destinoCosta() {
                     <h3>Lima</h3>
                     <p>Explora las riquezas de Lima.</p>
                     <br /><br />
-                    <a href="../SubPages/subPage1.html">
-                        Ir a destino <FontAwesomeIcon icon={faArrowRight} />
-                    </a>
+                    <Link to="/PaginaLima">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
+                    </Link>
                     <FontAwesomeIcon 
                         icon={faHeart}
                         style={{ color: favStates[0] ? 'red' : 'gray', cursor: 'pointer' }}
@@ -44,9 +44,9 @@ function destinoCosta() {
                     <img src={paracasCosta} alt="Paracas" />
                     <h3>Paracas</h3>
                     <p>Paracas, donde el desierto se encuentra con el océano.</p><br />
-                    <a href="../SubPages/subPage2.html">
-                        Ir a destino <FontAwesomeIcon icon={faArrowRight} />
-                    </a>
+                    
+                    <Link to="/PaginaParacas">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
+                    </Link>
                     <FontAwesomeIcon
                         icon={faHeart}
                         style={{ color: favStates[1] ? 'red' : 'gray', cursor: 'pointer' }}
@@ -62,9 +62,9 @@ function destinoCosta() {
                         El desierto cobra vida con sus imponentes dunas y el encantador
                         oasis de Huacachina.
                     </p>
-                    <a href="../SubPages/subPage3.html">
-                        Ir a destino <FontAwesomeIcon icon={faArrowRight} />
-                    </a>
+                        <Link to="/PaginaNosotros">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
+                        </Link>
+
                     <FontAwesomeIcon 
                         icon={faHeart}
                         style={{ color: favStates[2] ? 'red' : 'gray', cursor: 'pointer' }}
@@ -79,9 +79,8 @@ function destinoCosta() {
                     <p>
                         Hogar de las enigmáticas líneas que desafían el tiempo.
                     </p><br />
-                    <a href="../SubPages/subPage4.html">
-                        Ir a destino <FontAwesomeIcon icon={faArrowRight} />
-                    </a>
+                    <Link to="/PaginaNosotros">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
+                    </Link>
                     <FontAwesomeIcon 
                         icon={faHeart}
                         style={{ color: favStates[3] ? 'red' : 'gray', cursor: 'pointer' }}
@@ -95,9 +94,8 @@ function destinoCosta() {
                     <h3>Máncora</h3>
                     <p>Relájate en las soleadas playas de Máncora.</p>
                     <br />
-                    <a href="../SubPages/subPage5.html">
-                        Ir a destino <FontAwesomeIcon icon={faArrowRight} />
-                    </a>
+                    <Link to="/PaginaNosotros">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
+                    </Link>
                     <FontAwesomeIcon 
                         icon={faHeart}
                         style={{ color: favStates[4] ? 'red' : 'gray', cursor: 'pointer' }}
@@ -111,9 +109,8 @@ function destinoCosta() {
                     <h3>Tumbes</h3>
                     <p>Descansa en las tranquilas playas de Tumbes.</p>
                     <br />
-                    <a href="../SubPages/subPage6.html">
-                        Ir a destino <FontAwesomeIcon icon={faArrowRight} />
-                    </a>
+                    <Link to="/PaginaNosotros">Ir a destino <FontAwesomeIcon icon={faArrowRight} />
+                    </Link>
                     <FontAwesomeIcon 
                         icon={faHeart}
                         style={{ color: favStates[5] ? 'red' : 'gray', cursor: 'pointer' }}

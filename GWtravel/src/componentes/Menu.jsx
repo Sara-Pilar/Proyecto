@@ -34,7 +34,7 @@ function Menu() {
             <li><Link to="/PaginaNosotros">NOSOTROS</Link></li>
             <li><Link to="/PaginaDestino">DESTINOS</Link>
               <ul className="submenu">
-                <li><Link to="/PaginasNosotros">Costa</Link></li>
+                <li><Link to="/PaginaCosta">Costa</Link></li>
                 <li><Link to="/PaginasNosotros">Sierra</Link></li>
                 <li><Link to="/PaginaSelva">Selva</Link></li>
               </ul>

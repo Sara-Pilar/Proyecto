@@ -16,7 +16,7 @@ function Testimonios_user() {
                     <div class="iconos">
                         <img src={t_user_1} />
                     </div>     
-                        <p className="texto">
+                        <p className="textoU">
                         "Tuve un viaje maravilloso a Trujillo. Desde la asesoría 
                         inicial hasta el regreso a casa, todo fue perfecto. Me
                         proporcionaron una guía muy útil con información sobre 
@@ -31,7 +31,7 @@ function Testimonios_user() {
                     <div class="iconos">
                         <img src={t_user_2} />
                     </div>     
-                        <p className="texto">
+                        <p className="textoU">
                         "Recomiendo encarecidamente a GW TRAVEL 
                         para cualquier viaje. Organizamos nuestras vacaciones 
                         familiares a Oxapampa con ellos y fue una experiencia 
@@ -46,7 +46,7 @@ function Testimonios_user() {
                     <div class="iconos">
                         <img src={t_user_3} />
                     </div>     
-                    <p className="texto">
+                    <p className="textoU">
                         "El servicio al cliente es excepcional. Me ayudaron a 
                         reservar un viaje de última hora a Huancayo para
                         visitar a mi familia y no estar corriendo para organizar 

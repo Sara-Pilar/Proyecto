@@ -1,12 +1,13 @@
 import React from 'react';
 
-import Puntos from './componentes/Puntos.jsx';
 
+import Destino from './componentes/Destino.jsx'
 
 function PaginaDestinos(){
   return(
     <>
-        <Puntos/>
+        <Destino/>
+
     </>
   );
 }

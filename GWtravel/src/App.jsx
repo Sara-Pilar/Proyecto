@@ -8,6 +8,9 @@ import PaginaTestimonios from './PaginaTestimonios.jsx'
 import Footer from "./componentes/Footer.jsx";
 import PaginaBlog from './PaginaBlog.jsx'
 import PaginaDestino from './PaginaDestino.jsx'
+import PaginaCosta from "./PaginaCosta.jsx";
+import PaginaLima from './PaginaLima.jsx'
+import PaginaParacas from "./PaginaParacas.jsx";
 
 function App(){
   return(
@@ -22,6 +25,9 @@ function App(){
           <Route path="/PaginaTestimonios" element={<PaginaTestimonios/>} />
           <Route path="/PaginaBlog" element={<PaginaBlog/>} />
           <Route path="/PaginaDestino" element={<PaginaDestino/>} />
+          <Route path="/PaginaCosta" element={<PaginaCosta/>} />
+          <Route path="/PaginaLima" element={<PaginaLima/>} />
+          <Route path="/PaginaParacas" element={<PaginaParacas/>} />
         </Routes>
         <Footer/>
       </Router>

@@ -20,19 +20,19 @@ function Footer() {
                 <ul>
                     <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/PaginaNosotros">Nosotros</Link></li>
-                    <li><Link to="/PaginaNosotros">Destinos</Link>
+                    <li><Link to="/PaginaDestino">Destinos</Link>
                         <ul>
-                            <li><Link to="/PaginasNosotros">Costa</Link></li>
+                            <li><Link to="/PaginaCosta">Costa</Link></li>
                             <li><Link to="/PaginasNosotros">Sierra</Link></li>
-                            <li><Link to="/PaginasNosotros">Selva</Link></li>
+                            <li><Link to="/PaginaSelva">Selva</Link></li>
                         </ul>
                     </li>
                </ul>
             </div>
             <div className="f-centro">
                 <ul>
-                    <li><Link to="/PaginasNosotros">Testimonios</Link></li>
-                    <li><Link to="/PaginasNosotros">Blog</Link></li>
+                    <li><Link to="/PaginaTestimonios">Testimonios</Link></li>
+                    <li><Link to="/PaginaBlog">Blog</Link></li>
                 </ul>
             </div>
             <div className="f-centro">

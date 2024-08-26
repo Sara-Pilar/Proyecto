@@ -1,6 +1,7 @@
 import oxapampa2 from '../imagenes/oxapampa2.jpg'
 import iquitos2 from '../imagenes/iquitos2.jpg'
 import chanchamayo2 from '../imagenes/chanchamayo2.jpg'
+import { Link } from 'react-router-dom';
 import './Region_selva.css'
 function Selva2() {
     return (
@@ -46,9 +47,11 @@ function Selva2() {
                     </div>
                     <h3 class="precio">S/.670</h3>
                     <div class="paquete">
+                    <Link to="/PaginaLima">
                         <button type="button" onclick="paqute1()">
-                            Ver paquete
-                        </button> 
+                        Ver paquete
+                        </button>
+                    </Link> 
                     </div>   
                 </div>
 
@@ -69,12 +72,13 @@ function Selva2() {
                     </div>
                     <h3 class="precio">S/.295</h3>
                     <div class="paquete">
+                    <Link to="/PaginaLima">
                         <button type="button" onclick="paqute1()">
-                            Ver paquete
-                        </button> 
+                        Ver paquete
+                        </button>
+                    </Link> 
                     </div>   
                 </div>
-
         </div>
     </div>
 
