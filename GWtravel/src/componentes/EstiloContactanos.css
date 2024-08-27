@@ -31,6 +31,8 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 600px;
+    height: 400px;
 }
 
 .Name-Last input {

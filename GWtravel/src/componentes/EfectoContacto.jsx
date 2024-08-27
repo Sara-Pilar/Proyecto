@@ -2,6 +2,7 @@ import { Fragment, useState } from "react";
 import { Form } from 'react-bootstrap';
 import '../EstiloContactanos.css';
 
+
 const EfectoContacto = () => {
     const [Nombres, setNombres] = useState('');
     const [Telefono, setTelefono] = useState('');
